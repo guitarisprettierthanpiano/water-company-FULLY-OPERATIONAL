@@ -6,7 +6,7 @@ function Newsroom(){
     <div className='newsroom-container'>
         
         <div className='newsroom-h1'>
-            <h1>Steven's News</h1>
+            <h1>Steven W&G News</h1>
         </div>
         
         <div className='newsroom-press-releases'>

@@ -9,32 +9,34 @@ function Header() {
             <nav id='nav'>
                 <ul>
                     <NavLink exact
-                    activeClassName='active' to='/' >
+                    activeClassName='active' 
+                    to='/' >
                         <li>Home</li> 
                     </NavLink>
 
                     <NavLink 
-                    activeClassName='active' to='/about' >
+                    activeClassName='active' 
+                    to='/about' >
                         <li>About</li> 
                     </NavLink>
 
                     <NavLink 
-                    activeClassName='active' to='/newsroom' >
+                    activeClassName='active' 
+                    to='/newsroom' >
                         <li>Newsroom</li> 
                     </NavLink>
 
-                    <li><a href='#'>
-                        Suppliers</a>
-                    </li> 
-                    <li><a href='#'>
-                        Commitment</a>
-                    </li>
-                    <li><a href='#'>
-                        Investors</a>
-                    </li>   
-                    <li><a href='#'>
-                        ESG</a>
-                    </li>                              
+                    <NavLink 
+                    activeClassName='active' 
+                    to='/careers' >
+                        <li>Careers</li> 
+                    </NavLink>
+
+                    <NavLink 
+                    activeClassName='active' 
+                    to='/commitment' >
+                        <li>Commitment</li> 
+                    </NavLink>                   
                 </ul>
             </nav>
         </header>

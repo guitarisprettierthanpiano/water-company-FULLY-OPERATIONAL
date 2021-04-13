@@ -6,7 +6,7 @@ function AboutPage() {
 
     <div className='about-container' id='about'>
         <div className='about-h1'>
-            <h1>About Steven Utilities</h1>
+            <h1>About Steven W&G</h1>
         </div>
         
         <div className='about-section-one'>
