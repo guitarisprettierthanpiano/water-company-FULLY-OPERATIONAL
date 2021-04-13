@@ -1,26 +1,33 @@
 import * as React from 'react';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Home from './components/home'
-import About from './components/about'
 import Header from './components/header';
+
+import Home from './components/home';
+import About from './components/about';
+import Newsroom from './components/newsroom';
+
 import Footer from './components/footer'
 
 function App() {
     return (
     <Router>
 
-        <Header/>
+        <Header />
 
         <Switch>
-            <Route path='/about' component={About}/>
-            <Route path='/' component={Home}/>
+            <Route exact path='/' 
+                component={Home}/>
+            <Route path='/about' 
+                component={About}/>
+            <Route path='/newsroom' 
+                component={Newsroom}/>
         </Switch>
-        
+
         <Footer />
 
     </Router>    
-    )
-}
+    );
+};
 
 export default App;

@@ -1,21 +1,28 @@
 import * as React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
     <>
         <header className='header'>
-            <img src='../myproj9watercompany/images/logo.jpg'/>
+            <img src='/images/logo.jpg'/>
             <nav id='nav'>
                 <ul>
-                    <li><a href='#about'>
-                        About</a>
-                    </li> 
-                    <li><a href='#home'>
-                        Newsroom</a>
-                    </li>
-                    <li><a href='#'>
-                        Careers</a>
-                    </li>
+                    <NavLink exact
+                    activeClassName='active' to='/' >
+                        <li>Home</li> 
+                    </NavLink>
+
+                    <NavLink 
+                    activeClassName='active' to='/about' >
+                        <li>About</li> 
+                    </NavLink>
+
+                    <NavLink 
+                    activeClassName='active' to='/newsroom' >
+                        <li>Newsroom</li> 
+                    </NavLink>
+
                     <li><a href='#'>
                         Suppliers</a>
                     </li> 
