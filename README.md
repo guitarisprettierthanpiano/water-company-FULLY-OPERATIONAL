@@ -1,6 +1,6 @@
 # water-company-UNDER-CONSTRUCTION
-This is a website I'm designing around https://www.essential.co/
+This is a website designed around https://www.essential.co/.
 
-Using react and typescript
+Utilized react, typescript, routes, hashrouter, navlinks, switch, usestate, props, responsive design, favicons
 
-All images are free from Pexels.
+images are from pexels.
