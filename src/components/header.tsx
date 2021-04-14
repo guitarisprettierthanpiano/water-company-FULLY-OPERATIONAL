@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function Header() {
+function Header(props) {
+
     return (
     <>
         <header className='header'>
@@ -10,36 +11,46 @@ function Header() {
                 <ul>
                     <NavLink exact
                     activeClassName='active' 
-                    to='/' >
+                    onClick={() => props.changePath('/')} 
+                    to='/'
+                     >
                         <li>Home</li> 
                     </NavLink>
 
                     <NavLink 
-                    activeClassName='active' 
-                    to='/about' >
+                    activeClassName='active'
+                    onClick={() => props.changePath('/about')} 
+                    to='/about' 
+                     >
                         <li>About</li> 
                     </NavLink>
 
                     <NavLink 
-                    activeClassName='active' 
-                    to='/newsroom' >
+                    activeClassName='active'
+                    onClick={() => props.changePath('/newsroom')}  
+                    to='/newsroom' 
+                    >
                         <li>Newsroom</li> 
                     </NavLink>
 
                     <NavLink 
-                    activeClassName='active' 
-                    to='/careers' >
+                    activeClassName='active'
+                    onClick={() => props.changePath('/careers')}  
+                    to='/careers' 
+                    >
                         <li>Careers</li> 
                     </NavLink>
 
                     <NavLink 
                     activeClassName='active' 
+                    onClick={() => props.changePath('/commitment')} 
                     to='/commitment' >
                         <li>Commitment</li> 
                     </NavLink>                   
                 </ul>
             </nav>
         </header>
+        
     </>
     )
 }

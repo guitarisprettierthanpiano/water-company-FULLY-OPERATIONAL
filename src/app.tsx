@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 
 
@@ -13,26 +14,19 @@ import Commitment from './components/commitment';
 import Footer from './components/footer';
 
 function App() {
+    const [newPage, setNewPage] = useState<string>('/')
+
     return(
     <HashRouter>
-
-        <Header />
-
+        <Header changePath={newPage => setNewPage(newPage)}/>
         <Switch>
-            <Route exact path='/' 
-                component={Home}/>
-            <Route path='/about' 
-                component={About}/>
-            <Route path='/newsroom' 
-                component={Newsroom}/>
-            <Route path='/careers'
-                component={Careers}/>
-            <Route path='/commitment'
-                component={Commitment}/>
+            <Route exact path='/' component={Home}/>
+            <Route path='/about' component={About}/>
+            <Route path='/newsroom' component={Newsroom}/>
+            <Route path='/careers' component={Careers}/>
+            <Route path='/commitment' component={Commitment}/>
         </Switch>
-
-        <Footer />
-
+        <Footer currentPath={newPage}/>
     </HashRouter>    
     );
 };
