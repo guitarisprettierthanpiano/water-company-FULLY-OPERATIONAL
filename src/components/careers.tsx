@@ -9,7 +9,7 @@ function Careers(){
 
         <div className='container-careers-a-message'>
             <div className='careers-a-message'>
-                <span style={{fontWeight: 800}}><img src='images/careers/gigachad.png' className='round'/>A message from Steven:</span>
+                <span style={{fontWeight: 800}}><img loading='lazy' src='images/careers/gigachad.png' className='round'/>A message from Steven:</span>
                 <br/>
                 <p>Welcome to the careers page! We are a premier utility and infrastructure company. We offer a large array of exciting and engaging opportunities for jobs and careers that support our mission to provide life's natural resources.</p>
                 <p>The greatest assets we have are our employees. We deliver the most essential resources to our customers. Steven companies, namely Steven Natural Gas and Steven Water, are committed to offering opportunities for career growth, great benefits packages and a friendly workplace for each and every employee across the communities we serve in 10 states. We create cultures that empower employees and where everyone is welcomed, respected and recgonized for their contributions. Our team is about respect, integrity and the ideal of excellence.</p>

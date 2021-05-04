@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useState } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 
-
 import Header from './components/header';
 
 import Home from './components/home';
@@ -13,8 +12,9 @@ import Commitment from './components/commitment';
 
 import Footer from './components/footer';
 
-function App() {
-    const [newPage, setNewPage] = useState<string>('/')
+
+const App: React.FC = () => {
+    const [newPage, setNewPage] = useState<string>('/');
 
     return(
     <HashRouter>

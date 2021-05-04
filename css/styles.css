@@ -30,6 +30,7 @@ p, span{
     font-size: 18px;
     max-width: 550px;
     line-height: 150%;
+    text-align: justify ;
 }
 
 /*root container of the page */
@@ -591,6 +592,7 @@ nav ul li:hover{
     font-size: 18px;
     text-transform: uppercase;
     color: white;
+    margin-bottom: 20px;
 
     background-color: rgb(50, 160, 194);
     border: 2px solid white;
