@@ -79,7 +79,7 @@ function Newsroom(){
                 </div>
                 <div className='news-right'>
                     <h5>Steven W&G Announces Retirement of President</h5>
-                    <p> RALEIGH, Nc. --(BUSINESS WIRE)--Jan. 20, 2021-- Steven W&G announced today that John Smith will succeed Jane Doe as company president.</p>
+                    <p> RALEIGH, Nc. --(BUSINESS WIRE)--Dec. 21, 2021-- Steven W&G announced today that John Smith will succeed Jane Doe as company president.</p>
                     <img src='/images/newsroom/downloadicon.png'/>
                 </div>
             </div>
