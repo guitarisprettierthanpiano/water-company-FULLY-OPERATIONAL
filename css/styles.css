@@ -543,14 +543,14 @@ nav ul li:hover{
     grid-row: 1;
     grid-column: 2;
 
-    background-image: url(/images/careers/hardhat.jpg);
+    background-image: url(../images/careers/hardhat.jpg);
     background-size: cover;
 }
 .careers-at-bl{
     grid-row: 2;
     grid-column: 1;
     
-    background-image: url(/images/careers/hardhat2.jpg);
+    background-image: url(../images/careers/hardhat2.jpg);
     background-size: cover;
 }
 .careers-at-br{
@@ -669,14 +669,14 @@ nav ul li:hover{
     grid-column: 2;
     grid-row: 1;
 
-    background-image: url(/images/commitment/panels.jpg);
+    background-image: url(../images/commitment/panels.jpg);
     background-size: cover;
 }
 .c-m-21{
     grid-column: 1;
     grid-row: 2;
 
-    background-image: url(/images/commitment/kayak.jpg);
+    background-image: url(../images/commitment/kayak.jpg);
     background-size: cover;
 }
 .c-m-22{
@@ -705,14 +705,14 @@ nav ul li:hover{
     grid-column: 2;
     grid-row: 3;
     
-    background-image: url(/images/commitment/hands.jpg);
+    background-image: url(../images/commitment/hands.jpg);
     background-size: cover;
 }
 .c-m-41{
     grid-column: 1;
     grid-row: 4;
 
-    background-image: url(/images/commitment/hatguy.jpg);
+    background-image: url(../images/commitment/hatguy.jpg);
     background-size: cover;
 
 }
