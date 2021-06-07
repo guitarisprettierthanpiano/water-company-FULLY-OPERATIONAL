@@ -18,7 +18,7 @@ function Footer(props){
         {/* this will scroll up without reloadingg the page
             it takes the prop from a usestate passed from the header */}
         <NavLink to={props.currentPath}>
-            <img loading='lazy' src='../images/footer/arrowup.png' 
+            <img loading='lazy' src='././images/footer/arrowup.png' 
                  onClick={scrollUP}/> 
         </NavLink> 
     </div>
