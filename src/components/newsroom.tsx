@@ -36,7 +36,7 @@ function Newsroom(){
                     <p> 
                     Reports results at the top of the guidance range. Over 20,000 water and wastewater customer connections added. Invests a record amount in infrastructure improvements. 
                     </p>
-                    <img src='/images/newsroom/downloadicon.png'/>
+                    <img src='././images/newsroom/downloadicon.png'/>
                 </div>
             </div>                                   
             <div className='news-item'>

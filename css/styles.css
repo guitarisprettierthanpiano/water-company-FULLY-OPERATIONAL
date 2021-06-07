@@ -153,7 +153,7 @@ nav ul li:hover{
     align-items: center;
     justify-items: start;
 
-    background-image: url(../../images/home/watersplashing.jpeg);
+    background-image: url(../images/home/watersplashing.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -270,14 +270,14 @@ nav ul li:hover{
     grid-row: 1;
     grid-column: 2;   
 
-    background-image: url(/images/about/aboutpageimg1.jpg);
+    background-image: url(../images/about/aboutpageimg1.jpg);
     background-size: cover; 
 } 
 .about-section-one .about-section-one-bl{
     grid-row: 2;
     grid-column: 1;   
 
-    background-image: url(/images/about/aboutpageimg2.jpg);
+    background-image: url(../images/about/aboutpageimg2.jpg);
     background-size: cover; 
 } 
 .about-section-one * h2{

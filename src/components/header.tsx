@@ -6,7 +6,7 @@ function Header(props) {
     return (
     
     <header className='header'>
-        <img src='/images/header/logo2.jpg'/>
+        <img src='./images/header/logo2.jpg'/>
         <nav id='nav'>
             <ul>
                 <NavLink 
