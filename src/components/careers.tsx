@@ -23,19 +23,16 @@ function Careers(){
 
         <div className='careers-at'>
             <div className='careers-at-tl'>
+                <div className='blank'/>
                 <h2>Careers at Steven Water</h2>
-                <br/>
                 <p>Steven W&G employs more than 2000 professionals within ten states, ranging from customer service representitves to field workers, to engineers and scientists who deliver the best water and gas services to your community.</p>
-                <br/>
                 <h3>Corprate Citizenship</h3>
-                <br/>
-                <p>We are dedicated to creating a productive working environment by offering many programs to attract and retain the best employees, including wellness initatives and safety training. We know that satisfied employees give us the trust, dedication, performance and long-term value that give us our edge. 
-                <span className='dark-blue'>
-                    Learn more 
+                <p>We are dedicated to creating a productive working environment by offering many programs to attract and retain the best employees, including wellness initatives and safety training. We know that satisfied employees give us the trust, dedication, performance and long-term value that give us our edge.
+                <span className='special'> Learn more&nbsp; 
                 </span> 
                 about diversity and inclusion, wellness and safety at Steven Water and Gas.</p>
-                <br/>
                 <button>Apply Here</button>
+                <div className='blank'/>
             </div>
            
             <div className='careers-at-tr'/>
@@ -43,10 +40,9 @@ function Careers(){
             <div className='careers-at-bl'/>
 
             <div className='careers-at-br'>
+                <div className='blank'/>
                 <h2>Careers at Steven Gas</h2>
-                <br/>
                 <p>Steven Natural Gas has been serving central North Carolina for over 100 years, offering talented professionals the opportunity to serve more than one million customers in the region. Steven Natural Gas is not your average natural gas utility. Our vision is:</p>
-                <br/>
                 <ul>
                     <li>Provide professional service to our customers</li>
                     <li>Encourage economic growth for businesses in the region</li>
@@ -56,6 +52,7 @@ function Careers(){
                     <br/>
                     <button>Apply Here</button>
                 </ul>
+                <div className='blank'/>
             </div>
         </div>
     </div>

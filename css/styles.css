@@ -8,19 +8,21 @@ body, body *{
     box-sizing: border-box;
 
     font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
 }
 h1{
-    font-size: 54px;
+    font-size: 42px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.800);
     font-weight: 800;
+    letter-spacing: 1px;
 }
 button:hover, li:hover{
     cursor: pointer;
     transition: all .1s;
 }
 .dark-blue{
-    color: darkblue;
-    font-weight: 700;
+    color: #00A3E0;
+    font-weight: 600;
     cursor: pointer;
 
     padding-left: 4px;
@@ -29,7 +31,7 @@ button:hover, li:hover{
 p, span{
     font-size: 18px;
     max-width: 550px;
-    line-height: 150%;
+    line-height: 160%;
     text-align: justify ;
 }
 
@@ -70,12 +72,12 @@ nav ul li{
   display:inline;
 
   color: rgba(0, 0, 0, 0.900);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-decoration: none;
 }
 nav ul li:hover{
-    color: rgb(0, 187, 187);
+    color: #00a3e0;
 }
 .active{
     color: black;
@@ -102,9 +104,16 @@ nav ul li:hover{
     display: inline;
 }
 .footer ul li a{
-    color: grey;
-    font-size: 18px;
+    color: #888B8D !important;
+    font-weight: normal !important;
+    font-size: 16px;
     margin-left: 40px;
+}
+.footer ul li:hover{
+    color: #00a3e0;
+}
+.footer ul li a:hover{
+    color: #00a3e0;
 }
 .footer a{
     grid-column: 3;
@@ -124,7 +133,7 @@ nav ul li:hover{
     
 }
 .footer a img:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50px;
 }
 /* END GENERAL STUFF */
@@ -156,17 +165,22 @@ nav ul li:hover{
     background-image: url(../images/home/watersplashing.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-.main .homemain h1{
-    width: 800px;
-    margin-left: 32px;
 
-    background-color: rgba(0, 0, 0, 0.100);
-    border-radius: 30px;
-    text-align:left;
+    
+    box-shadow: inset 110px 110px 111px 110px 
+    rgba(0, 0, 0, 0.5); 
+    
+    transition: all 0s; 
 }
-.main .homemain h1:hover{
-    transform: scale(1);
+
+.main .homemain h1{
+    width: 350px;
+    margin-left: 20px;
+    line-height: 1.1;
+    font-weight: 800;
+    
+
+    text-align:left;
 }
 
 /* MAIN secion below main image */
@@ -187,18 +201,31 @@ nav ul li:hover{
 
     height: 600px;
 
-    background-color: rgba(0, 163, 212, 0.705);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10px auto auto 1fr;
+
+    background: linear-gradient(
+        135deg
+        ,#00a3e0 0%,#88c7eb 100%);
 }
 .main .our-purpose{
     grid-column: 2;
 
     height: 600px;
 
-    background-color: rgb(112, 187, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10px auto auto 1fr;
+
+    background: linear-gradient(
+        135deg
+        ,#7dab0b 0%,#8bc400 100%);
 }
 .main .our-mission h1, .our-purpose h1{
-    height: 150px;
+    height: 100px;
     align-items: flex-end;
+    font-size: 40px;
 
     padding-left: 50px;
     padding-top: 40px;
@@ -206,10 +233,11 @@ nav ul li:hover{
 .main .our-mission p, .our-purpose p{
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 18px;
 
     max-width: 550px;
 
-    line-height: 175%;
+    line-height: 1.5;
 
 }
 /* END MAIN PAGE */
@@ -231,7 +259,8 @@ nav ul li:hover{
     align-content: center;
     height: 180px;
 
-    background-color: rgb(0, 68, 255);
+    background-color: #002f6c;
+    ;
 }
 .about-h1 h1{
     padding-left: 24px;
@@ -253,7 +282,8 @@ nav ul li:hover{
 
     padding: 30px;
 
-    background-color: rgba(0, 163, 212, 0.705);
+    background: linear-gradient(
+    135deg,#00a3e0 0%,#88c7eb 100%);
 }
 .about-section-one .about-section-one-br{
 
@@ -264,7 +294,8 @@ nav ul li:hover{
 
     padding: 30px;
 
-    background-color: rgb(112, 187, 0);
+    background: linear-gradient(
+    135deg,#7dab0b 0%,#8bc400 100%);
 }
 .about-section-one .about-section-one-tr{
     grid-row: 1;
@@ -310,7 +341,7 @@ nav ul li:hover{
 .about-section-two * h2{
     padding-left: 20px;
     padding-right: 20px;
-    color: rgb(0, 0, 184);
+    color: #002F6C;
 }
 .about-section-two * p{
     padding-left: 20px;
@@ -340,7 +371,8 @@ nav ul li:hover{
     align-content: center;
     height: 180px;
 
-    background-color: rgb(0, 68, 255);
+    background-color: #002f6c;
+
 }
 .newsroom-h1 h1{
     padding-left: 24px;
@@ -359,7 +391,7 @@ nav ul li:hover{
     padding-left: 24px;
     font-size: 40px;
     font-weight: 800;
-    color: rgb(0, 68, 255);
+    color: #002F6C;;
 
     margin-bottom: 12px;
 }
@@ -376,13 +408,15 @@ nav ul li:hover{
 }
 .news-item{
     display: grid;
-    height: 200px;
     grid-template-columns: .3fr 2fr;
     border-top: 1px solid grey;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .news-item .news-left{
     grid-column: 1;
-    width: 150px;
+    width: 120px;
     padding: 20px;
 
     display: grid;
@@ -391,39 +425,51 @@ nav ul li:hover{
 }
 .news-item .news-right{
     grid-column: 2;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto, auto);
+
     width: 600px;
-    padding: 12px;
 }
 .news-item * img{
-    height: 24px;
-    width: 24px;
+    height: 30px;
+    width: 30px;
 
     cursor: pointer;
+    opacity: .5;
     
     margin-left: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 .news-item * p{
     padding-left: 10px;
+    line-height: 140%;
 
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 18px;
+    font-weight: 500;
 }
 .news-item * h1{
-    color: rgb(94, 94, 94);
+    color: #888B8D;;
     text-shadow: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
 }
 .news-item * span{
-    color: rgb(94, 94, 94);
+    color: #888B8D;;
     font-size: 16px;
     line-height: 175%;
-    font-weight: 600;
+    font-weight: 500;
 }
 .news-item * h5{
-    color: rgb(0, 68, 255);
+    color: #002F6C;
     padding-left: 10px;
     font-size: 22px; 
     cursor: pointer;
+    font-weight: 500;
 
     line-height: 175%;
 }
@@ -451,15 +497,18 @@ nav ul li:hover{
   display:inline;
 
   color: black;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   text-decoration: none;
 
   padding: 12px;
 }
 .newsroom-page-turner ul li:nth-of-type(1){
-    background-color:  rgb(0, 68, 255);
-    border-radius: 50px;
+    background-color: #00A3E0;
+    border-radius: 50%;
+    text-align: center;
+    height: 40px;
+    width: 40px;
     color: white;
 }
 /* END NEWSROOM PAGE */
@@ -483,7 +532,9 @@ nav ul li:hover{
     justify-content: center;
     align-content: center;
 
-    background-color: rgb(112, 187, 0);
+    background: linear-gradient(
+    135deg
+    ,#7dab0b 0%,#8bc400 100%)!important;
 }
 
 /* careers, a message */
@@ -521,7 +572,7 @@ nav ul li:hover{
 
     padding-top: 11px;
 
-    line-height: 175%;
+    line-height: 150%;
 } 
 
 /* careers at */
@@ -536,8 +587,12 @@ nav ul li:hover{
 .careers-at-tl{
     grid-row: 1;
     grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto auto auto auto 1fr;
 
-    background-color: rgb(50, 160, 194);
+    background: linear-gradient(
+    135deg,#00a3e0 0%,#88c7eb 100%);  
 }
 .careers-at-tr{
     grid-row: 1;
@@ -557,11 +612,24 @@ nav ul li:hover{
     grid-row: 2;
     grid-column: 2;
 
-    background-color: rgb(10, 51, 161);;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto auto auto auto 1fr;
+    background: linear-gradient(
+    135deg,#002f6c 0%,#004db1 100%);
 }
-.careers-at h2, .careers-at h3{
+.careers-at * h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+.careers-at * h3{
     padding-top: 40px;
     padding-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .careers-at * p, 
 .careers-at * ul{
@@ -581,44 +649,77 @@ nav ul li:hover{
     color: white;
     font-size: 16px;
     line-height: 175%;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: dotted;
     cursor: auto; 
 }
 .careers-at-tl button{
     margin-left: 30px;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 190px;
+    font-weight: 600;
 
-    font-size: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+
+    background-color: rgb(50, 160, 194);
+    border-radius: 40px;
+
+    background: transparent;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: solid 3px #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.careers-at-tl button:hover{
+    background: #fff;
+    color: #002F6C !important;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: solid 3px #fff;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+.careers-at-br button{
+    margin-left: 30px;
+    height: 60px;
+    width: 190px;
+    font-weight: 600;
+
+    font-size: 16px;
     text-transform: uppercase;
     color: white;
     margin-bottom: 20px;
 
     background-color: rgb(50, 160, 194);
-    border: 2px solid white;
     border-radius: 40px;
-}
-.careers-at-tl button:hover{
-    background-color: white;
-    color: rgb(50, 160, 194);
-}
-.careers-at-br button{
-    margin-left: 30px;
-    height: 50px;
-    width: 150px;
 
-    font-size: 18px;
+    background: transparent;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: solid 3px #fff;
     text-transform: uppercase;
-    color: white;
-
-    background-color: rgb(10, 51, 161);
-    border: 2px solid white;
-    border-radius: 40px;
+    line-height: 1.2;
 }
 .careers-at-br button:hover{
-    background-color: white;
-    color: rgb(10, 51, 161);
+    background: #fff;
+    color: #002F6C !important;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: solid 3px #fff;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+.special{
+    color: #002F6C;
+    cursor: pointer;
 }
 
 /* END CAREERS  PAGE */
@@ -633,14 +734,15 @@ nav ul li:hover{
     grid-template-rows: 180px 1500px;
 }
  /* commitment h1 */
- .commitment-h1{
+.commitment-h1{
     grid-row: 1;
     display: grid;
     height: 180px;
 
     align-content: center;
 
-    background-color: rgb(0, 68, 255);
+    background-color: #002f6c;
+    ;
  }
 .commitment-h1 h1{
     padding-left: 24px;
