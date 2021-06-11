@@ -159,13 +159,11 @@ nav ul li:hover{
     align-items: center;
     justify-items: start;
 
+    box-shadow: inset 210px 210px 210px 210px 
+    rgba(0, 0, 0, 0.5); 
     background-image: url(../images/home/watersplashing.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-
-    
-    box-shadow: inset 110px 110px 111px 110px 
-    rgba(0, 0, 0, 0.5); 
     
     transition: all 0s; 
 }
@@ -876,7 +874,7 @@ nav ul li:hover{
 /* IPAD SIZE */
 @media screen and (max-width: 1440px){
     .main .homemain{
-        background-image: url(../../images/home/watersplashing1440.jpg);
+        background-image: url(../images/home/watersplashing1440.jpg);
     }
 }
 
