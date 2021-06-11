@@ -34,9 +34,9 @@ function Careers(){
                 <div className='buttons' id='tlbuttons'>
                     <button>Apply Here</button>
                     <ul>
-                        <li><img src='../images/careers/facebook.png'/></li>
-                        <li><img src='../images/careers/twitter.png'/></li>
-                        <li><img src='../images/careers/linkendin.png'/></li>
+                        <li><img src='././images/careers/facebook.png' title='Facebook'/></li>
+                        <li><img title='Twitter' src='././images/careers/twitter.png'/></li>
+                        <li><img title='Linkedin' src='././images/careers/linkendin.png'/></li>
                     </ul>
                     <div className='blakn'></div>
                 </div>
@@ -61,11 +61,11 @@ function Careers(){
                     <div className='buttons'>
                     <button>Apply Here</button>
                     <ul>
-                        <li><img src='../images/careers/facebook.png'/></li>
-                        <li><img src='../images/careers/twitter.png'/></li>
-                        <li><img src='../images/careers/linkendin.png'/></li>
-                        <li><img src='../images/careers/youtube.png'/></li>
-                        <li><img src='../images/careers/instagram.png'/></li>
+                        <li><img title='Facebook' src='././images/careers/facebook.png'/></li>
+                        <li><img title='Twitter' src='././images/careers/twitter.png'/></li>
+                        <li><img title='Linkedin' src='././images/careers/linkendin.png'/></li>
+                        <li><img title='YouTube' src='././images/careers/youtube.png'/></li>
+                        <li><img title='Instagram' src='././images/careers/instagram.png'/></li>
                     </ul>
                 </div>
                 </ul>
