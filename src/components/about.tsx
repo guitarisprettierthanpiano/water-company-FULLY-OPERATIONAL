@@ -31,14 +31,14 @@ function AboutPage() {
                 <br/>
                 <p>When it comes to water and wastewater infrastructure, the fact is that the United States has over one million miles of underground pipe, much of which is many decades old and in dire need of replacement. According to the American Water Works Association, it will cost an estimated $1 trillion to maintain and expand drinking water service to meet demands over the next 20 years. Upgrading water and wastewater infrastructure is a major challenge facing our country, and we are proud to be leading the way when it comes to offering a solution. As one of the largest regulated water companies in the country, we are renewing and improving infrastructure through meticlious and intelligent invesements.</p>
                 <br/>
-                <p>Steven Water currently provides wastewater and water utility services to millions of people in many states within the US. As we continue to grow the company and operations, we strive to deliver great customer service and give back to the communities we operate in. <span className='dark-blue'>Learn More</span></p>
+                <p>Steven Water currently provides wastewater and water utility services to millions of people in many states within the US. As we continue to grow the company and operations, we strive to deliver great customer service and give back to the communities we operate in.<span className='dark-blue'>Learn More</span></p>
             </div>
             <div className='about-section-two-r'>
                 <h2>About Our Natural Gas Utility</h2>
                 <br/>
                 <p>Natural gas pipelines transport more than a quarter of the energy consumed in the U.S. Natural gas is delivered to customers through a three million-mile pipeline system, including two million miles of local utility distribution pipelines. Much of this pipeline is aging and needs replacement or upgrades, making the commitment of companies like us even more important to the safety and prosperity of local communities.</p>
                 <br/>
-                <p>Natural gas is one of the safest, cleanest, and most useful energy sources. Compared with diesels and gasoline, natural gas can reduce greenhouse gas emissions by up to 30 percent. Natural gas emits much less CO2 than coal and oil too. And natural gas vehicles produce less greenhouse gases than diesel vehicles, and less than comparable gasoline vehicles.</p>
+                <p>Natural gas is one of the safest, cleanest, and most useful energy sources. Compared with diesels and gasoline, natural gas can reduce greenhouse gas emissions by up to 30 percent. Natural gas emits much less CO2 than coal and oil. Natural gas vehicles produce less greenhouse gases than diesel vehicles, and less than comparable gasoline vehicles. <span className='dark-blue'>Learn More</span></p>
             </div>          
         </div>
     </div>

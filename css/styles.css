@@ -22,8 +22,8 @@ button:hover, li:hover{
 }
 .dark-blue{
     color: #00A3E0;
-    font-weight: 600;
     cursor: pointer;
+    font-size: 16px;
 
     padding-left: 4px;
     padding-right: 4px;
@@ -341,6 +341,7 @@ nav ul li:hover{
 .about-section-two * h2{
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 30px;
     color: #002F6C;
 }
 .about-section-two * p{
@@ -577,7 +578,6 @@ nav ul li:hover{
 
 /* careers at */
 .careers-at{
-    background-color: crimson;
     grid-row: 3;
     display: grid;
     height: 1200px;
@@ -756,6 +756,10 @@ nav ul li:hover{
     height: 1600px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px 300px 350px 450px;
+
+    
+    max-width: 2000px;
+    justify-self: center;
 }
 .c-m-11{
     grid-column: 1;
@@ -765,7 +769,9 @@ nav ul li:hover{
     justify-items: center;
     
     padding-top: 40px;
-    background-color: rgba(2, 181, 235, 0.767);
+    background: linear-gradient(
+    135deg
+    ,#00a3e0 0%,#88c7eb 100%);
 }
 .c-m-12{
     grid-column: 2;
@@ -790,7 +796,9 @@ nav ul li:hover{
     
     padding-top: 60px;
 
-    background-color: rgba(0, 60, 255, 0.973);;
+    background: linear-gradient(
+        135deg
+        ,#002f6c 0%,#004db1 100%);
 }
 .c-m-31{
     grid-column: 1;
@@ -801,7 +809,9 @@ nav ul li:hover{
 
     padding-top: 60px;
     
-    background-color: rgb(91, 151, 0);
+    background: linear-gradient(
+135deg
+,#7dab0b 0%,#8bc400 100%);
 }
 .c-m-32{
     grid-column: 2;
@@ -827,7 +837,9 @@ nav ul li:hover{
     padding-top: 60px;
     padding-bottom: 60px;
 
-    background-color: rgb(75, 189, 255);
+    background: linear-gradient(
+    135deg
+    ,#00a3e0 0%,#88c7eb 100%);
 }
 .commitment-main * h2{
     padding-left: 60px;
@@ -843,6 +855,14 @@ nav ul li:hover{
 }
 .commitment-main * .dark-blue {
     padding-left: 0px;
+}
+
+
+/* IPAD SIZE */
+@media screen and (max-width: 1440px){
+    .main .homemain{
+        background-image: url(../../images/home/watersplashing1440.jpg);
+    }
 }
 
 /* IPAD SIZE */
@@ -862,24 +882,14 @@ nav ul li:hover{
         grid-row: 1;
 
         height: 400px;
-        display: grid;
 
-
-        align-items: center;
-        justify-items: start;
-
-        background-image: url(../../images/home/watersplashing.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url(../../images/home/watersplashing1024.jpg);
     }
     .main .homemain h1{
         width: 400px;
         margin-left: 32px;
 
         font-size: 30px;
-        background-color: rgba(0, 0, 0, 0.100);
-        border-radius: 30px;
-        text-align:left;
     }
 
     /* MAIN secion below main image */
@@ -966,8 +976,6 @@ nav ul li:hover{
         grid-column: 1;
 
         padding: 30px;
-
-        background-color: rgba(0, 163, 212, 0.705);
     }
     .about-section-one .about-section-one-br{
 
@@ -978,21 +986,18 @@ nav ul li:hover{
 
         padding: 20px;
 
-        background-color: rgb(112, 187, 0);
     }
     .about-section-one .about-section-one-tr{
         grid-row: 1;
         grid-column: 2;   
 
-        background-image: url(/images/about/aboutpageimg1.jpg);
-        background-size: cover; 
+        background-image: url(../images/about/aboutpageimg1_1024.jpg);
     } 
     .about-section-one .about-section-one-bl{
         grid-row: 2;
         grid-column: 1;   
 
-        background-image: url(/images/about/aboutpageimg2.jpg);
-        background-size: cover; 
+        background-image: url(../images/about/aboutpageimg2_1024.jpg);
     } 
     .about-section-one * h2{
         font-size: 36px;
@@ -1262,14 +1267,14 @@ nav ul li:hover{
         grid-row: 1;
         grid-column: 2;
 
-        background-image: url(/images/careers/hardhat.jpg);
+        background-image: url(../images/careers/hardhat.jpg);
         background-size: cover;
     }
     .careers-at-bl{
         grid-row: 2;
         grid-column: 1;
         
-        background-image: url(/images/careers/hardhat2.jpg);
+        background-image: url(../images/careers/hardhat2.jpg);
         background-size: cover;
     }
     .careers-at-br{
@@ -1465,7 +1470,12 @@ nav ul li:hover{
         font-size: 14px;
     }
 
-
+/* IPAD SIZE */
+@media screen and (max-width: 1440px){
+    .main .homemain{
+        background-image: url(../../images/home/watersplashing1440.jpg);
+    }
+}
 
 
 
