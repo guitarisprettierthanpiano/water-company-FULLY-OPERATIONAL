@@ -37,6 +37,8 @@ function Careers(){
                         <li><img src='././images/careers/facebook.png' title='Facebook'/></li>
                         <li><img title='Twitter' src='././images/careers/twitter.png'/></li>
                         <li><img title='Linkedin' src='././images/careers/linkendin.png'/></li>
+                        <li/>
+                        <li/>
                     </ul>
                     <div className='blakn'></div>
                 </div>
