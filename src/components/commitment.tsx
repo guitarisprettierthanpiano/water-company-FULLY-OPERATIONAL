@@ -26,7 +26,7 @@ function Commitment(){
                 <p>
                 We also prioritize efforts to be engaged in the communities we operate in. Through our work to preserve local waterways, enviornments and natural habitats, Steven W&G is entrenched within our communities in every state we operate in. Our team provides thousands of hours of volunteer service to charitable organizations and non-profits each year. Giving back is a core value for us.</p>
                 <br/>
-                <p><span className='dark-blue'>Click here</span>to learn more about the Enviornmental, Social and Governace efforts at Steven W&G.</p>
+                <p><span className='dark-blue'>Click here</span>&nbsp;to learn more about the Enviornmental, Social and Governace efforts at Steven W&G.</p>
             </div>
         </div>
     </div>

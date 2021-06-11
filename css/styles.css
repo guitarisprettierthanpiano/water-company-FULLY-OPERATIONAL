@@ -632,9 +632,9 @@ nav ul li:hover{
     margin-bottom: 10px;
 }
 .careers-at * p, 
-.careers-at * ul{
+.careers-at * .bullets{
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 20px;
 
     max-width: 550px;
 
@@ -654,7 +654,7 @@ nav ul li:hover{
     cursor: auto; 
 }
 .careers-at-tl button{
-    margin-left: 30px;
+
     height: 60px;
     width: 190px;
     font-weight: 600;
@@ -662,7 +662,6 @@ nav ul li:hover{
     font-size: 16px;
     text-transform: uppercase;
     color: white;
-    margin-top: 20px;
 
     background-color: rgb(50, 160, 194);
     border-radius: 40px;
@@ -685,8 +684,38 @@ nav ul li:hover{
     text-transform: uppercase;
     text-decoration: none !important;
 }
-.careers-at-br button{
+#tlbuttons{
+    margin-top: 10px;
+}
+.buttons{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto 1fr;
     margin-left: 30px;
+}
+.buttons ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+    grid-template-rows: 1fr;
+    align-self: center;
+    justify-self: start;
+
+    padding-left: 0!important;
+}
+.buttons * li{
+    width: 30px;
+} 
+.buttons * a::before{
+    background-image: url('../images/careers/facebook.png');
+}
+.buttons * img{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.careers-at-br button{
     height: 60px;
     width: 190px;
     font-weight: 600;
@@ -694,7 +723,6 @@ nav ul li:hover{
     font-size: 16px;
     text-transform: uppercase;
     color: white;
-    margin-bottom: 20px;
 
     background-color: rgb(50, 160, 194);
     border-radius: 40px;
@@ -855,6 +883,11 @@ nav ul li:hover{
 }
 .commitment-main * .dark-blue {
     padding-left: 0px;
+    font-size: 18px;
+    color: #002f6c !important;
+}
+.commitment-main * .dark-blue:hover{
+    text-decoration: underline #002f6c !important;
 }
 
 
@@ -1311,38 +1344,19 @@ nav ul li:hover{
         cursor: auto; 
     }
     .careers-at-tl button{
-        margin-left: 20px;
         height: 50px;
         width: 150px;
-
-        font-size: 18px;
-        text-transform: uppercase;
-        color: white;
-
-        background-color: rgb(50, 160, 194);
-        border: 2px solid white;
-        border-radius: 40px;
-    }
-    .careers-at-tl button:hover{
-        background-color: white;
-        color: rgb(50, 160, 194);
     }
     .careers-at-br button{
-        margin-left: 20px;
         height: 50px;
         width: 150px;
-
-        font-size: 18px;
-        text-transform: uppercase;
-        color: white;
-
-        background-color: rgb(10, 51, 161);
-        border: 2px solid white;
-        border-radius: 40px;
     }
     .careers-at-br button:hover{
         background-color: white;
         color: rgb(10, 51, 161);
+    }
+    .special{
+        font-size: 14px;
     }
 
     /* END CAREERS  PAGE */
@@ -1377,7 +1391,7 @@ nav ul li:hover{
         display: grid;
         height: auto;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: repeat(auto, auto)
     }
     .c-m-11{
         grid-column: 1;
@@ -1409,6 +1423,7 @@ nav ul li:hover{
         
         display: grid;
         justify-items: center;
+        align-content: center;
         
         padding-top: 20px;
 
@@ -1420,7 +1435,7 @@ nav ul li:hover{
         
         display: grid;
         justify-items: center;
-
+        align-content: center;
         padding-top: 20px;
         
         background-color: rgb(91, 151, 0);
@@ -1445,6 +1460,7 @@ nav ul li:hover{
         grid-row: 4;
         display: grid;
         justify-items: center;
+        align-content: center;
         
         padding-top: 20px;
         padding-bottom: 20px;
@@ -1468,6 +1484,7 @@ nav ul li:hover{
     .commitment-main * .dark-blue {
         padding-left: 0px;
         font-size: 14px;
+        text-align: auto;
     }
 
 /* IPAD SIZE */

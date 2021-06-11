@@ -31,7 +31,15 @@ function Careers(){
                 <span className='special'> Learn more&nbsp; 
                 </span> 
                 about diversity and inclusion, wellness and safety at Steven Water and Gas.</p>
-                <button>Apply Here</button>
+                <div className='buttons' id='tlbuttons'>
+                    <button>Apply Here</button>
+                    <ul>
+                        <li><img src='../images/careers/facebook.png'/></li>
+                        <li><img src='../images/careers/twitter.png'/></li>
+                        <li><img src='../images/careers/linkendin.png'/></li>
+                    </ul>
+                    <div className='blakn'></div>
+                </div>
                 <div className='blank'/>
             </div>
            
@@ -43,14 +51,23 @@ function Careers(){
                 <div className='blank'/>
                 <h2>Careers at Steven Gas</h2>
                 <p>Steven Natural Gas has been serving central North Carolina for over 100 years, offering talented professionals the opportunity to serve more than one million customers in the region. Steven Natural Gas is not your average natural gas utility. Our vision is:</p>
-                <ul>
+                <ul className='bullets'>
                     <li>Provide professional service to our customers</li>
                     <li>Encourage economic growth for businesses in the region</li>
                     <li>Improve the quality of lives for our customers and their communities</li>
                     <li>Maintain the protection of our environment</li>
                     <li>Satisfy our employees and partners</li>
                     <br/>
+                    <div className='buttons'>
                     <button>Apply Here</button>
+                    <ul>
+                        <li><img src='../images/careers/facebook.png'/></li>
+                        <li><img src='../images/careers/twitter.png'/></li>
+                        <li><img src='../images/careers/linkendin.png'/></li>
+                        <li><img src='../images/careers/youtube.png'/></li>
+                        <li><img src='../images/careers/instagram.png'/></li>
+                    </ul>
+                </div>
                 </ul>
                 <div className='blank'/>
             </div>
